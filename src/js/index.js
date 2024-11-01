@@ -1,1 +1,3 @@
-import '../css/global.css';
+import { headerLogic } from "./header";
+
+headerLogic();

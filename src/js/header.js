@@ -1,5 +1,5 @@
 import '../css/global.css'; 
-import anklebitersLogo from '\\../assets/images/hondje_blauw.png'
+import anklebitersLogo from '../assets/hondje_blauw.png'
 
 export const headerLogic = (() => {
     const header = document.querySelector("header");

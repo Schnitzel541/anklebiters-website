@@ -1,7 +1,7 @@
 import '../css/global.css'; 
 import anklebitersLogo from '../assets/hondje_blauw.png'
 
-export const headerLogic = (() => {
+export const headerLogic = () => {
     const header = document.querySelector("header");
     const headerList = document.createElement("ul");
     headerList.classList.add("header-ul");
@@ -15,10 +15,10 @@ export const headerLogic = (() => {
     headerLogo.style.padding = "10px"
 
     // List
-    headerList.innerHTML = `<li>Home</li>
-                            <li>Over</li>
-                            <li>Merch</li>
-                            <li>Shows</li>`
+    headerList.innerHTML = `<li class="header-list-item">Home</li>
+                            <li class="header-list-item">Over</li>
+                            <li class="header-list-item">Merch</li>
+                            <li class="header-list-item">Shows</li>`
 
     headerList.insertBefore(headerLogo, headerList.firstChild);
-})();
+};

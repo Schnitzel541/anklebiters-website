@@ -1,8 +1,9 @@
 import '../css/global.css';
 
+const mainContent = document.querySelector(".main-content");
+const content = document.createElement("h3");
+
 export const shows = () => {
-    const mainContent = document.querySelector(".main-content");
-    const content = document.createElement("h3");
     content.textContent = "Shows";
     mainContent.appendChild(content);
 }

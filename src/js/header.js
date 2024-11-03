@@ -15,10 +15,10 @@ export const headerLogic = () => {
     headerLogo.style.padding = "10px"
 
     // List
-    headerList.innerHTML = `<li class="header-list-item">Home</li>
-                            <li class="header-list-item">Over</li>
-                            <li class="header-list-item">Merch</li>
-                            <li class="header-list-item">Shows</li>`
+    headerList.innerHTML = `<li class="header-list-item"><a href="/">Home</a></li>
+                            <li class="header-list-item"><a href="/over">Over</a></li>
+                            <li class="header-list-item"><a href="/merch">Merch</a></li>
+                            <li class="header-list-item"><a href="/shows">Shows</a></li>`
 
     headerList.insertBefore(headerLogo, headerList.firstChild);
 };

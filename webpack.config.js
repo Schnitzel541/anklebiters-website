@@ -23,8 +23,8 @@ module.exports = {
 
   devServer: {
     static: path.join(__dirname, 'dist'),
-    historyApiFallback: true, // Redirect all 404s to index.html
-    port: 3000, // or any other port you prefer
+    historyApiFallback: true,
+    port: 3000,
   },
   plugins: [
     new HtmlWebpackPlugin({

@@ -2,6 +2,11 @@
 *{padding:0;margin:0;}
 body{max-height: 100vh; max-width: 100vw;background-image: url(../assets/backdrop.png);background-size: 100vw;}
 
+.main-content {
+    display: flex;
+    justify-content: center;
+}
+
 /* header section */
 header {
     background-color: #ECB8C9;

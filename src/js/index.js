@@ -1,5 +1,6 @@
 import { headerLogic } from "./header";
 import { clearDOM } from "./cleardom"
+import { homepage } from "./homepage";
 import { over } from "./over";
 import { merch } from "./merch";
 import { shows } from "./shows";
@@ -12,6 +13,7 @@ const routing = () => {
     switch (path) {
         case('/'):
             clearDOM();
+            homepage();
             break;
         case('/over'):
             clearDOM();

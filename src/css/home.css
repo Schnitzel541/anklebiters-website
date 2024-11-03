@@ -1,0 +1,11 @@
+@import url(global.css);
+
+.homepage-content {
+    display: flex;
+    position: absolute;
+    bottom: 15vh;
+}
+
+.anklebiters-logo {
+    max-width: 300px;
+}

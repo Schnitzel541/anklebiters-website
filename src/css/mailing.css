@@ -1,0 +1,63 @@
+@import url(global.css);
+
+form {
+    font-family: SteakRough;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    color: black;
+    justify-content: center;
+    width: 500px;
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+label {
+    font-size: 1.9rem;
+}
+
+input, textarea {
+    height: 30px;
+    border-radius: 10px;
+    font-size: 1rem;
+    border: solid #ECB8C9;
+}
+
+textarea {
+    resize: none;
+    height: 20vh;
+    font-size: 1.2rem;
+}
+button[type="submit"] {
+    max-width: 300px;
+    background-color: #ECB8C9;
+    outline: solid #ECB8C9;
+    border: none;
+    font-size: 20px;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #163C4F;;
+}
+
+button[type="submit"]:hover {
+    background-color: white;
+    outline: solid #ECB8C9;
+}
+
+@media screen and (max-width: 600px) {
+    form {
+        max-width: 75vw;
+        padding: 50px;
+    }
+
+}
+
+.size-selection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

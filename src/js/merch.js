@@ -48,7 +48,7 @@ export const merch = () => {
                                 <li>XXL</li>
                               </ul>
                               <h3>€17,50</h3>
-                              <button class="buy-button">Interesse? Klik hier!</button></div>`
+                              <a href="/merch/mailing"<button class="buy-button">Interesse? Klik hier!</button></a></div>`
     merchPageContent.appendChild(leftContent);
     merchPageContent.appendChild(rightContent);
 

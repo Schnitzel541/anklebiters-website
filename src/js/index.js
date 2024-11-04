@@ -4,6 +4,7 @@ import { homepage } from "./homepage";
 import { over } from "./over";
 import { merch } from "./merch";
 import { shows } from "./shows";
+import { mailingForm } from "./mailing";
 
 headerLogic();
 
@@ -27,6 +28,9 @@ const routing = () => {
             clearDOM();
             shows();
             break;
+        case('/merch/mailing'):
+            clearDOM();
+            mailingForm();
     }
 };
 

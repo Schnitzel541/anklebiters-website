@@ -5,8 +5,9 @@
     gap: 60px;
     align-items: center;
     justify-content: center;
-    margin-top: 10vh;
+    margin-top: 5vh;
     color: white;
+    margin-bottom: 5vh;
 }
 
 .left-content {

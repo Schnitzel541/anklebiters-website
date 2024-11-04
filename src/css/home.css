@@ -10,6 +10,20 @@
     color: white;
 }
 
+.homepage-button {
+    background: none;
+    border: solid white;
+    padding: 10px;
+    border-radius: 1px;
+    color: white;
+}
+
+.homepage-button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
 .anklebiters-logo {
     max-width: 200px;
 }

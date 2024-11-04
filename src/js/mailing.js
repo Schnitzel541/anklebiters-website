@@ -7,7 +7,7 @@ const form = document.createElement("div");
 
 export const mailingForm = () => {
     form.innerHTML = 
-    `<form class="mailing-form" onsubmit="sendMail(event)">
+    `<form method="POST" class="mailing-form" onsubmit="sendMail(event)">
     <label for="name">Naam:</label><br>
     <input type="text" id="name" name="name" required><br><br>
 

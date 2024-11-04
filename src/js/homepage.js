@@ -13,7 +13,8 @@ export const homepage = () => {
     logo.src = anklebitersLogo;
     homepageContent.classList.add("homepage-content");
     homepageContent.appendChild(logo);
-    homepageText.textContent = '---COMING SOON---'
+    homepageText.className = "homepage-text";
+    homepageText.textContent = '---COMING SOON---';
 
     // button
     homepageButton.textContent = "SHOWS";

@@ -24,10 +24,10 @@
     cursor: pointer;
 }
 
-.anklebiters-logo {
-    max-width: 200px;
+.homepage-text {
+    font-family: SteakRough;
 }
 
-@media screen (max-width: 600px){
-    
+.anklebiters-logo {
+    max-width: 200px;
 }

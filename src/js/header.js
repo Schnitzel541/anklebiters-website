@@ -11,7 +11,7 @@ export const headerLogic = () => {
 
     // Logo
     headerLogo.src = anklebitersLogo;
-    headerLogo.classList.add("headerLogo");
+    headerLogo.classList.add("header-logo");
     headerLogo.style.maxWidth = "40px"
     headerLogo.style.padding = "10px"
 

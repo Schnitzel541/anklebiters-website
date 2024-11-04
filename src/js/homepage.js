@@ -14,7 +14,7 @@ export const homepage = () => {
     homepageContent.classList.add("homepage-content");
     homepageContent.appendChild(logo);
     homepageText.className = "homepage-text";
-    homepageText.textContent = '---COMING SOON---';
+    homepageText.textContent = '---COMING SOON---'; 
 
     // button
     homepageButton.textContent = "SHOWS";

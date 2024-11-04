@@ -23,12 +23,15 @@ shirtBack.className = 'shirt-img';
 leftContent.className = "left-content";
 rightContent.className = "right-content";
 
-buyButton.textContent = "Interesse? Klik hier!"
+buyButton.textContent = "Interesse? Klik hier!";
+buyButton.className = "buy-button";
 
 export const merch = () => {
 
     leftContent.appendChild(shirtFront);
     leftContent.appendChild(shirtBack);
+
+
     
     rightContent.innerHTML = `<div class="right-content-text"><h1>Officiëel ANKLEBITERS T-shirt</h3><br>
                               <p>Toon je support voor ANKLEBITERS met dit exclusieve, officiële 
@@ -44,12 +47,8 @@ export const merch = () => {
                                 <li>XL</li>
                                 <li>XXL</li>
                               </ul>
-                              <h3>€17,50</h3></div>`
-
-                          
-
-                              
-    rightContent.appendChild(buyButton);
+                              <h3>€17,50</h3>
+                              <button class="buy-button">Interesse? Klik hier!</button></div>`
     merchPageContent.appendChild(leftContent);
     merchPageContent.appendChild(rightContent);
 

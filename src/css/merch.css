@@ -39,9 +39,9 @@
     box-shadow: 5px 5px 5px 5px black;
 }
 
-button {
+.buy-button {
     max-width: 300px;
-    margin: 10px;
+    margin: 40px;
     background-color: #ECB8C9;
     outline: solid #ECB8C9;
     border: none;
@@ -49,9 +49,11 @@ button {
     padding: 20px;
     cursor: pointer;
     border-radius: 4px;
+    text-decoration: none;
+    color: #163C4F;;
 }
 
-button:hover {
+.buy-button:hover {
     background-color: white;
     outline: solid #ECB8C9;
 }

@@ -1,0 +1,90 @@
+@import url(global.css);
+
+.merch-page-content {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+    color: white;
+}
+
+.left-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.right-content {
+    display: flex;
+    max-width: 500px;
+    height: 40rem;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    padding: 30px;
+    border-radius: 4px;
+    hyphens: none;
+}
+
+.right-content-text {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+}
+
+.shirt-img {
+    max-width: 15vw;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px black;
+}
+
+button {
+    max-width: 300px;
+    margin: 10px;
+    background-color: #ECB8C9;
+    outline: solid #ECB8C9;
+    border: none;
+    font-size: 20px;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: white;
+    outline: solid #ECB8C9;
+}
+
+h1 {
+    font-family: SteakRough;
+    margin-bottom: 25px;
+}
+
+h3 {
+    padding: 10px;
+}
+
+p {
+    margin: 10px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .merch-page-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left-content {
+        display: flex;
+    }
+
+    .left-content > img {
+        max-width: 300px;
+    }
+}

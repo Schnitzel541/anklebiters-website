@@ -2,8 +2,12 @@
 
 .homepage-content {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
     position: absolute;
     bottom: 15vh;
+    color: white;
 }
 
 .anklebiters-logo {

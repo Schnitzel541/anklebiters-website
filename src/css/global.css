@@ -57,11 +57,11 @@ ul > li:hover {
     header > ul {
         display: flex;
         flex-direction: row;
-    };
+    }
 
     .header-list-item > a {
         color: white;
-    };
+    }
 
     .header-logo {
         display: none;

@@ -18,7 +18,6 @@
 .right-content {
     display: flex;
     max-width: 500px;
-    height: 40rem;
     flex-direction: column;
     background-color: white;
     color: black;
@@ -77,6 +76,10 @@ ul {
 }
 
 @media only screen and (max-width: 600px) {
+    .right-content {
+        max-height: 100vh;
+    }
+    
     .merch-page-content {
         display: flex;
         flex-direction: column;

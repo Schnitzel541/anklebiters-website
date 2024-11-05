@@ -1,0 +1,16 @@
+@import url(global.css);
+
+.over-header {
+    max-width: 100vw;
+}
+
+.over-content {
+    width: 100vw;
+    background-color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .over-header {
+        display: none;
+    }  
+};
